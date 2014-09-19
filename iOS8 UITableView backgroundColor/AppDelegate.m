@@ -17,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [[UITableView appearance] setBackgroundColor:[UIColor blueColor]];
+
     return YES;
 }
 
